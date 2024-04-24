@@ -1,0 +1,47 @@
+#hero {
+  min-height: 85vh;
+  background-image: url("/images/hero-man.jpg");
+  background-size: cover;
+}
+
+#hero h3{
+    font-size: 40px;
+    font-weight: 700;
+    background-color:rgb(58, 80, 148) ;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+#hero h1{
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 1px white;
+}
+#hero p{
+    background-color: rgba(0, 0, 0, 0.754);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-shadow: 1px 1px white;
+}
+#hero .sign-up{
+    background-color: rgb(58, 80, 148);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: 1px solid rgb(58, 80, 148);
+    border-radius: 5px;
+}
+
+#hero .details{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
