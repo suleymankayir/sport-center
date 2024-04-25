@@ -12,6 +12,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header id="header" class="fixed-top">
@@ -50,7 +53,7 @@
     <section id="hero" class="d-flex">
       <!-- <img src="./images/hero-man.jpg" class="img-fluid d-block" alt=""> -->
       <div
-        class="d-flex flex-column container justify-content-center align-items-start text-light"
+        class="d-flex flex-column container justify-content-center align-items-start text-light mt-5"
       >
         <h3>POWERFULL</h3>
         <h1>
@@ -71,46 +74,52 @@
       </div>
     </section>
 
-    <section id="info" class="d-flex">
-      <div
-        class="d-flex justify-content-center gap-5 align-items-center flex-row info text-center"
-      >
-        <div class="course box">
-          <span class="number">325</span> <br />
-          Course
-        </div>
-        <div class="work-out box">
-          <span class="number">405</span> <br />
-          Work Out
-        </div>
-        <div class="working-hour box">
-          <span class="number">305</span> <br />
-          Working Hour
-        </div>
-        <div class="happy-client box">
-          <span class="number">705</span> <br />Happy Client
+    <section id="info" class="d-flex justify-content-center align-items-center ">
+    
+
+      <div class="container text-center px-3 mx-5 py-5 ">
+        <div class="row row-cols-1 row-cols-sm-5 text-nowrap align-items-center justify-content-evenly gap-3">
+          <div class="col box "><span class="number">325</span><p>Course</p></div>
+          <div class="col box "> <span class="number">405</span><p>Work Out</p></div>
+          <div class="col box"><span class="number ">305</span><p>Working Hour</p></div>
+          <div class="col box"><span class="number">705</span><p>Happy Client</p></div>
         </div>
       </div>
+      
+      
     </section>
-
-    <section id="classes" class="d-flex">
-      <div class="d-flex align-items-center text-center container flex-column">
+     
+    <section id="classes" class="pb-5 px-4">
+      <div class="d-flex mx-auto  flex-column">
+      <div class="container justify-content-center align-items-center text-center mx-auto">
         <h1>OUR CLASSES</h1>
-        <div class="divider mt-3 mb-5"></div>
-        <p class="fs-4 fw-bolder">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+        <div class="divider mt-3 mx-auto"></div>
+        <p class="fs-4 fw-bolder text-center mt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Aperiam,
           minus.
         </p>
-        <div class="buttons d-flex justify-content-center mt-5 mb-4">
-          <button>Yoga</button>
-          <button>Group</button>
-          <button>Solo</button>
-          <button>Stretching</button>
+        
+        <div class="buttons row mt-3 mx-auto text-center row-gap-2">
+          <div class="col-6 col-lg-3">
+            <a id="button">Yoga</a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a id="button">Group</a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a id="button">Solo</a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a id="button">Stretching</a>
+          </div>
         </div>
-        <div class="class-info d-flex flex-row mt-5">
-          <div class="class-text mt-3 text-start lh-lg container">
+      
+        
+        <div class="row">
+
+          <div class="col-sm-6 col-12 class-text mt-3 text-start mx-auto lh-lg fs-6 container">
             <h1>Why are your Yoga?</h1>
-            <p class="mt-4">
+            <p class="mt-4 fw-bolder pe-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
               accusamus officia vero, molestias reiciendis placeat saepe est
               molestiae, asperiores non reprehenderit veniam sit nemo eveniet
@@ -125,7 +134,7 @@
             <br />
             <p>Saturday-Sunday: 8:00am - 10:00am</p>
           </div>
-          <div class="class-img mt-2 container">
+          <div class="col-sm-6 col-12 mx-auto class-img d-flex justify-content-center align-items-center container">
             <img src="images/yoga.jpg" class="img-fluid" alt="" />
           </div>
         </div>

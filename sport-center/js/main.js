@@ -1,2 +1,1 @@
-
-console.log("asdas");
+let buttons = document.querySelectorAll('#button');

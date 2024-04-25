@@ -2,24 +2,21 @@
     background-color: rgb(242, 248, 254);
     min-height: 30vh;
 }
-.info{
-    width: 80%;
-    margin: 0 auto;
-    
-}
-.info .box {
-    margin: 10px 20px;
+
+#info .box {
+  
     background-color: white;
-    padding: 10px 80px;
+    
     color: black;
     font-weight: 800;
     line-height: 3;
     font-size: 18px;
-    width: 300px;
-}
+    
+} 
 
-.info .box .number{
+#info .number{
     color: rgb(58, 80, 148);
     font-weight: 800;
     font-size: 35px;
 }
+
