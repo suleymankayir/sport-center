@@ -1,0 +1,54 @@
+#classes{
+ 
+    background:linear-gradient(-120deg, rgb(246,246,246) 50%, white 50%);
+    min-height: 85vh;
+ 
+}
+
+#classes .container {
+    padding-top: 8vh;
+}
+
+#classes h1{
+    font-weight: 800;
+    color: rgb(58, 80, 148);
+}
+
+#classes .divider{
+    border: 5px solid orange;
+    width: 10%;
+    border-radius: 5px;
+}
+
+#classes .buttons {
+    gap: 200px;
+
+}
+
+#classes button {
+    min-width: 7vw;
+    padding: 10px 30px;
+    background-color: rgb(58, 80, 148);
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+#classes .class-info{
+    gap: 10%;
+    min-width: 60vw ;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#classes .class-text{
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+#classes .class-img{
+    min-width: 26.5vw;
+}
+
