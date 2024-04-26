@@ -1,0 +1,32 @@
+#bmi h1{
+    color: rgb(58, 80, 148);
+    font-weight: 700;
+    font-size: 38px;
+}
+
+#bmi p{
+    font-weight: 600;
+    
+}
+
+#bmi input {
+    border: 1px solid black;
+}
+
+.bmi-div{
+    position: relative;
+}
+
+.triangle{
+    content: "";
+    position: absolute;
+    
+    width: 30px;
+    height: 30px;
+    bottom: -2px;
+    left:86%;
+   
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid red;
+}
