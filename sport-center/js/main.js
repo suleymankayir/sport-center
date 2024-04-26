@@ -3,6 +3,10 @@ let title = document.querySelector('#title')
 let title2 = document.querySelector('#title2')
 let image = document.querySelector('#class-image');
 let header = document.querySelector('#header');
+let weight = document.querySelector('#weight');
+let height = document.querySelector('#height');
+let triangle = document.querySelector('.triangle')
+
 
 buttons.forEach(button => {
 
@@ -47,4 +51,29 @@ window.addEventListener("scroll",(e) => {
     } else if (scroll <=150){
         header.style.backgroundColor = "transparent";
     }
+})
+
+
+weight.addEventListener("input", (e)=> {
+  let heightMeter = parseFloat(height.value)/100;
+  let bmiValue = parseFloat(weight.value) / (heightMeter * heightMeter);
+  
+  if(bmiValue > 35){
+    triangle.style.left = "570px"
+    console.log(bmiValue)
+  } else if(bmiValue<12){
+    triangle.style.left="100px" 
+    console.log(bmiValue)
+  } else if (bmiValue >18.5 && bmiValue<25){
+    triangle.style.left = `${bmiValue * 1.6}%`
+    console.log(bmiValue)
+  } else if (bmiValue >= 25 && bmiValue<30){
+    triangle.style.left = `${bmiValue * 1.78}%`
+    console.log(bmiValue)
+  }
+  else if (bmiValue >= 30 && bmiValue<35){
+    triangle.style.left = `${bmiValue * 1.96}%`
+    console.log(bmiValue)
+  }
+  
 })
