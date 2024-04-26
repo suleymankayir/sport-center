@@ -1,61 +1,63 @@
 #header {
-    
-   
-    background-color:transparent ;
-   
+  background-color: transparent;
 }
 
 #header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    color: white;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
 }
 
 #navbar {
-    padding: 0;
-    
+  padding: 0;
 }
 
 #navbar ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-#navbar li {
-    position: relative;
-    padding: 6px 10px;
-
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-#navbar li a{
-   font-size: 18px;
-   font-weight: 800;
-   padding: 5px;
-   cursor: pointer;
-   min-width: 90px;
-   color: white;
+.dlink a {
+  color: white;
+  margin: 4px;
+  text-align: center;
+  padding: 4px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-     
+.dlink a:hover {
+  color: rgb(58, 80, 148);
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo h1 {
-    margin-left: -38%;
-    padding-top: 2%;
-    font-weight: 800;
+  margin-left: -38%;
+  padding-top: 2%;
+  font-weight: 800;
 }
 
-.j-usBtn{
-    background-color: orange;
-    border-radius: 4px;
-    padding: 8px;
+.join a{
+  padding: 10px 15px;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  color: white;
+}
+.join a:hover{
+    background-color: white;
+    color: rgb(58, 80, 148) ;
 }

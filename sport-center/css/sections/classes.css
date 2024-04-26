@@ -19,6 +19,12 @@
     color: rgb(70,70,70);
 }
 
+#classes .class-text h3{
+    font-weight: 600;
+    color: rgb(70,70,70);
+    font-size: 30px;
+}
+
 #classes .divider{
     border: 5px solid orange;
     width: 10%;
