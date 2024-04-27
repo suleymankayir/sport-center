@@ -1,0 +1,78 @@
+#trainers {
+  background-color: rgb(239, 247, 255);
+  min-height: 85vh;
+}
+
+#trainers h1 {
+  color: rgb(58, 80, 148);
+  font-weight: 700;
+}
+
+#trainers .divider {
+  border: 5px solid orange;
+  width: 10%;
+  border-radius: 5px;
+}
+
+#trainers .trainer {
+  margin-top: 10vh;
+}
+
+
+
+#trainers .tr-images img {
+  width: 100%;
+  z-index: 1;
+}
+
+#trainers .borders::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(58, 80, 148);
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+    transition: all 0.6s ease;
+}
+
+#trainers .borders::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(58, 80, 148);
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    left: 0%;
+    z-index: 0;
+    transform: translateY(-50%);
+    transition: all 0.6s ease;
+}
+
+#trainers .after:hover .borders::after{
+    width: 65%;
+    
+    
+}
+#trainers .after:hover .borders::before{
+    height: 65%;
+}
+#trainers .tr-name{
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(58, 80, 148);
+    bottom: 0;
+    width: 90%;
+    height: 40%;
+    left: 5%;
+   
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    transition: all 0.6s ease;
+    transform: translateY(100%);
+}
+#trainers .after:hover .tr-name{
+    transform: translateY(-10%);
+    
+}

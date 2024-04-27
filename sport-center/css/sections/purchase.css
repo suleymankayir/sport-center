@@ -1,0 +1,15 @@
+#purchase .divider {
+    border: 5px solid orange;
+    width: 10%;
+    border-radius: 5px;
+  }
+
+  #purchase h1 {
+    color: rgb(58, 80, 148);
+    font-weight: 700;
+  }
+
+  #purchase h5{
+    font-size: 23px;
+    
+  }
