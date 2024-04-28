@@ -90,3 +90,10 @@ document.addEventListener("click", (event) => {
     }
   }
 });
+
+window.addEventListener("resize", (e) => {
+  let width = e.target.innerWidth;
+  if (width > 577) {
+    navigationBar.style.transform = "translateY(0%)";
+  }
+});
