@@ -2,24 +2,6 @@
   background-color: transparent;
 }
 
-#header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-}
-
-#navbar {
-  padding: 0;
-}
-
-#navbar ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 .dlink a {
   color: white;
@@ -42,11 +24,6 @@
   align-items: center;
 }
 
-.logo h1 {
-  margin-left: -38%;
-  padding-top: 2%;
-  font-weight: 800;
-}
 
 .join a{
   padding: 10px 15px;
@@ -61,3 +38,37 @@
     background-color: white;
     color: rgb(58, 80, 148) ;
 }
+
+#header .hmbgr{
+  display: none;
+  background-color: transparent;
+  color: white;
+  
+  text-align: center;
+} 
+
+@media screen and (max-width: 576px) {
+  #header .hmbgr {
+    cursor: pointer;
+    display: block;
+  }
+  #navbar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.899);
+    padding: 3rem;
+    width: 100%;
+    top:  0;
+    left: 0;
+    transform: translateY(-100%);
+    position: absolute;
+    transition: all 1s;
+    
+  }
+  #navbar ul a:hover {
+    transform: scale(1.1);
+  }
+}
+
