@@ -1,0 +1,74 @@
+#header {
+  background-color: transparent;
+}
+
+
+.dlink a {
+  color: white;
+  margin: 4px;
+  text-align: center;
+  padding: 4px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.dlink a:hover {
+  color: rgb(58, 80, 148);
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.join a{
+  padding: 10px 15px;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  color: white;
+}
+.join a:hover{
+    background-color: white;
+    color: rgb(58, 80, 148) ;
+}
+
+#header .hmbgr{
+  display: none;
+  background-color: transparent;
+  color: white;
+  
+  text-align: center;
+} 
+
+@media screen and (max-width: 576px) {
+  #header .hmbgr {
+    cursor: pointer;
+    display: block;
+  }
+  #navbar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.899);
+    padding: 3rem;
+    width: 100%;
+    top:  0;
+    left: 0;
+    transform: translateY(-100%);
+    position: absolute;
+    transition: all 1s;
+    
+  }
+  #navbar ul a:hover {
+    transform: scale(1.1);
+  }
+}
+
