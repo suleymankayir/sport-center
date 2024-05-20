@@ -1,0 +1,19 @@
+#contact{
+    background-color: white;
+    min-height: 85vh;
+}
+
+#contact .divider {
+    border: 5px solid orange;
+    width: 10%;
+    border-radius: 5px;
+  }
+
+  #contact h1 {
+    color: rgb(58, 80, 148);
+    font-weight: 700;
+  }
+
+  #contact .a{
+    
+  }
